@@ -3,15 +3,17 @@ Plaats in een microbit ding geen idee hoe ik het anders kon inleveren
 from microbit import *
 from random import randint
 
+
+
 asteroidDensity = 3  
-                   
-loopTime = 10  
-gameSpeed = 600  
+loopTime = 10 
+gameSpeed = 600 
 nextLvlAt = 20    
+
 
 bJustStarted = True
 grid = []
-bJeHebtVerloren = False
+bYouLose = False
 lvl = 1
 stpsUntlNxtLvl = nextLvlAt
 stpsUntlNxtRfrsh = 0
@@ -22,18 +24,20 @@ def getStepsUntilNextRefresh():
     return int((gameSpeed / loopTime))
 
 def drawGrid():
-    global bJeHebtVerloren
+    global bYouLose
     if (len(grid) > 0):
 
         if (grid[4][4]):
-            bJeHebtVerloren = True
-        
+            bYouLose = True
+
         for row in range(0, len(grid)):
             for col in range(2, len(grid[row])-2):
                 isOn = 0
                 if (grid[row][col] or (row == 4 and col == 4)):
                     isOn = 5
                 display.set_pixel(col-2, row, isOn)
+
+
 
 def is_On():
     ret = True
@@ -44,9 +48,9 @@ def is_On():
             break
     return ret
 
-
 def createRow():
     cols = []
+
     for i in range(0, 9):
         isOn = is_On()
         cols.append(isOn)
@@ -56,13 +60,17 @@ def buildGrid():
     global stpsUntlNxtLvl
     global gameSpeed
     global lvl
+
     if (len(grid) == 0):
         for i in range(0, 5):
             grid.append([False for i in range(0, 9)])
+    
     else:
         grid.pop(4)
         grid.insert(0, createRow())
+
     drawGrid()
+
     stpsUntlNxtLvl -= 1
     if (stpsUntlNxtLvl == 0):
         if ((gameSpeed - 100) > 100):  # until 200
@@ -72,19 +80,23 @@ def buildGrid():
         if (gameSpeed > 20):
             stpsUntlNxtLvl = nextLvlAt
             lvl += 1
+            # flash screen
             display.show(Image("99999:90009:90009:90009:99999"))
             sleep(10)
             drawGrid()
+
 
 def shiftLeft():
     for row in range(0, len(grid)):
         grid[row].pop(8)
         grid[row].insert(0, is_On())
 
+
 def shiftRight():
     for row in range(0, len(grid)):
         grid[row].pop(0)
         grid[row].append(is_On())
+
 
 stpsUntlNxtRfrsh = getStepsUntilNextRefresh()
 while True:
