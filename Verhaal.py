@@ -1,3 +1,6 @@
+
+# opdracht is klaar!
+
 import os
 os.system("cls")
 inleiding = False
@@ -135,8 +138,7 @@ while stukje_4 == True:
         print(" Let op hoofdletters!")
         print("")
         continue
-    
-        
+       
 #stukje_5 klaar
 while stukje_5 == True:
     print(" Jullie vluchten toch weg. Iemand uit de groep heeft contact gehad met een mensen smokkelaar.")
@@ -292,7 +294,7 @@ while stukje_14 == True:
         print("  B = Uit handen geven aan vluchtelingen werk. ")
         Antwoord_14 = input(">>>")
         if Antwoord_14 == "A":
-            stukje_17 = True
+            stukje_23 = True
             stukje_14 = False
         elif Antwoord_14 == "B":
             stukje_18 = True
@@ -422,10 +424,11 @@ while stukje_20 == True:
             print("")
             continue
 
-#stukje 21 nog niet klaar
+#stukje 21 klaar
 while stukje_21 == True:
-        print("")
-        print("")
+        print("Op de snelweg hebben jullie iemand gevonden die jullie brengt naar België")
+        print(" Jullie worden gedropt bij het politie bureau en vragen voor hulp.")
+        print(" Dat krijgen jullie en gaan meteen aan de slag om Ruwanda's moeder naar België te halen")
         Antwoord_21 = input(">>>")
         if Antwoord_21 == "":
             einde_5 = True
@@ -448,6 +451,21 @@ while stukje_22 == True:
             print("")
             continue
 
+#stukje 23 klaar
+while stukje_23 == True:
+        print("Zelf proberen was geen goed idee want nu waren jullie te laat voor de moeder van Ruwanda")
+        print(" Toen jullie daarna toch vroegen voor hulp was het te laat")
+        print(" De moeder van Ruwanda is vermoord omdat de vader van Ruwanda gezocht werd en ze niet wou mee werken")
+        print(" Ze barsten in tranen en uit")
+        print(" Jullie worden naar jullie kamer gebracht en getroost")
+        Antwoord_23 = input(">>>")
+        if Antwoord_23 == "A":
+            einde_4 = True
+            stukje_23 = False
+        else:
+            print(" Let op hoofdletters!")
+            print("")
+            continue
 #einde1 klaar
 while einde_1 == True:
         print("Je bent gepakt door de Taliban")
