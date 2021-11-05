@@ -62,7 +62,6 @@ while spelletje == True:
         print(" C = Blijven")
         print(" Type A, B of C")
         Antwoord_1 = input(">>>")
-    
         if Antwoord_1 == "A":
             stukje_2 = True
             stukje_1 = False
@@ -82,7 +81,7 @@ while spelletje == True:
             continue
 
 #Keuze Vluchten #2
-
+    
     while stukje_2 == True:
         print(" Jullie willen richting het Westen. Maar weten niet hoe jullie daar heen moeten. Iemand uit de groep heeft contact gehad met een mensen smokkelaar.")
         print(" Hij kan jullie richting Spanje meenemen alleen dat is een van de gevaarlijkste en langste route's die er is. ")
@@ -101,7 +100,7 @@ while spelletje == True:
             stukje_2 = False
             continue
         else:
-            print("Let op hoofdletters")
+            print(" Let op hoofdletters!")
             print("")
             continue
 
@@ -123,7 +122,7 @@ while spelletje == True:
             stukje_3 = False
             continue
         else:
-            print("Let op hoofdletters")
+            print(" Let op hoofdletters!")
             print("")
             continue
 
@@ -136,7 +135,7 @@ while spelletje == True:
             einde_1 = True
             continue
         else:
-            print("Let op hoofdletters")
+            print(" Let op hoofdletters!")
             print("")
             continue
         
@@ -160,7 +159,7 @@ while spelletje == True:
         
         else:
             
-            print("Let op hoofdletters")
+            print(" Let op hoofdletters!")
             print("")
             continue
 
@@ -180,7 +179,7 @@ while spelletje == True:
             stukje_9 = True
             stukje_6 = False
         else:
-            print("")
+            print(" Let op hoofdletters!")
             print("")
             continue
 
@@ -193,10 +192,11 @@ while stukje_7 == True:
         Antwoord_2 = input(">>>")
         if Antwoord_2 == "":
             einde_2 = True
+            stukje_7
             continue
         else:
             
-            print("Let op hoofdletters")
+            print(" Let op hoofdletters!")
             print("")
             continue
 
@@ -214,7 +214,7 @@ while stukje_9 == True:
         if Antwoord_9 == "A":
             stukje_11 = True
             stukje_9 = False
-            
+
         elif Antwoord_9 == "B":
             stukje_12 = True
             stukje_9 = False
@@ -224,7 +224,7 @@ while stukje_9 == True:
             stukje_9 = False
         
         else:
-            print("Let op hoofdletters")
+            print(" Let op hoofdletters!")
         continue
 
 #stukje_10
@@ -324,12 +324,19 @@ while stukje_14 == True:
 
 #stukje_15
 while stukje_15 == True:
-        print("")
-        print("")
-        print("")
-        print("")
-        einde_1 = True
-        stukje_15 = False
+        print(" ")
+        print(" ")
+        Antwoord_18 = input(">>>")
+        if Antwoord_18 == "A":
+            stukje_19 = True
+            stukje_18 = False
+        elif Antwoord_18 == "B":
+            stukje_20 = True
+            stukje_18 = False
+        else:
+            print(" Let op hoofdletters!")
+            print("")
+            continue
 
 #stukje_16
 while stukje_16 == True:
@@ -396,7 +403,7 @@ while stukje_18 == True:
             stukje_20 = True
             stukje_18 = False
         else:
-            print("")
+            print(" Let op hoofdletters!")
             print("")
             continue
 
@@ -417,7 +424,7 @@ while stukje_19 == True:
             stukje_23 = True
             stukje_19 = False
         else:
-            print("")
+            print(" Let op hoofdletters!")
             print("")
             continue
 
@@ -451,7 +458,7 @@ while stukje_21 == True:
             stukje_23 = True
             stukje_21 = False
         else:
-            print("")
+            print(" Let op hoofdletters!")
             print("")
             continue
 
