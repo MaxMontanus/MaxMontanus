@@ -51,140 +51,138 @@ while spelletje == True:
         inleiding = False
     
 #start
-    while stukje_1 == True:
-        print(" Voordat de taliban binnendrong: ")
-        print(" Ruwanda was aan het werk in haar eigen Beauty salon totdat ze ineens inmensen knallen hoorde. De taliban was binnen gedrongen")
-        print(" Ruwanda wist nog van niks totdat ze de volgende dag hoorde van haar vader dat hij een dreigbrief had ontvangen. Jullie weten niet wat jullie moeten doen")
-        print(" Ze twijfelen om meteen te vluchten om onder te duiken of gewoon te blijven en afwachten.")
-        print(" Wat moet ze doen:")
-        print(" A = Vlucht uit afganistan ")
-        print(" B = Onderduiken ")
-        print(" C = Blijven")
-        print(" Type A, B of C")
-        Antwoord_1 = input(">>>")
-        if Antwoord_1 == "A":
-            stukje_2 = True
-            stukje_1 = False
-            continue
+while stukje_1 == True:
+    print(" Voordat de taliban binnendrong: ")
+    print(" Ruwanda was aan het werk in haar eigen Beauty salon totdat ze ineens inmensen knallen hoorde. De taliban was binnen gedrongen")
+    print(" Ruwanda wist nog van niks totdat ze de volgende dag hoorde van haar vader dat hij een dreigbrief had ontvangen. Jullie weten niet wat jullie moeten doen")
+    print(" Ze twijfelen om meteen te vluchten om onder te duiken of gewoon te blijven en afwachten.")
+    print(" Wat moet ze doen:")
+    print(" A = Vlucht uit afganistan ")
+    print(" B = Onderduiken ")
+    print(" C = Blijven")
+    print(" Type A, B of C")
+    Antwoord_1 = input(">>>")
+    if Antwoord_1 == "A":
+        stukje_2 = True
+        stukje_1 = False
+        continue
         
-        elif Antwoord_1 == "B":
-            stukje_3 = True
-            stukje_1 = False
-            continue
+    elif Antwoord_1 == "B":
+        stukje_3 = True
+        stukje_1 = False
+        continue
             
-        elif Antwoord_1 == "C":
-            stukje_4 = True
-            stukje_1 = False
-            continue
-        else:
-            print("Let op hoofdletters")
-            continue
+    elif Antwoord_1 == "C":
+        stukje_4 = True
+        stukje_1 = False
+        continue
+    else:
+        print("Let op hoofdletters")
+        continue
 
-#Keuze Vluchten #2
-    
-    while stukje_2 == True:
-        print(" Jullie willen richting het Westen. Maar weten niet hoe jullie daar heen moeten. Iemand uit de groep heeft contact gehad met een mensen smokkelaar.")
-        print(" Hij kan jullie richting Spanje meenemen alleen dat is een van de gevaarlijkste en langste route's die er is. ")
-        print(" Jullie hebben te horen gekregen dat het ook via Griekenland kan. Dat is veiliger en korter.  ")
-        print(" Welke optie moeten ze pakken?")
-        print("  A = Via Spanje")
-        print("  B = Via Griekenland")
-        Antwoord_2 = input(">>>")
-        if Antwoord_2 == "A":
-            stukje_7 = True
-            stukje_2 = False
-            continue
+#Keuze klaar  
+while stukje_2 == True:
+    print(" Jullie willen richting het Westen. Maar weten niet hoe jullie daar heen moeten. Iemand uit de groep heeft contact gehad met een mensen smokkelaar.")
+    print(" Hij kan jullie richting Spanje meenemen alleen dat is een van de gevaarlijkste en langste route's die er is. ")
+    print(" Jullie hebben te horen gekregen dat het ook via Griekenland kan. Dat is veiliger en korter.  ")
+    print(" Welke optie moeten ze pakken?")
+    print("  A = Via Spanje")
+    print("  B = Via Griekenland")
+    Antwoord_2 = input(">>>")
+    if Antwoord_2 == "A":
+        stukje_7 = True
+        stukje_2 = False
+        continue
         
-        elif Antwoord_2 == "B":
-            stukje_9 = True
-            stukje_2 = False
-            continue
-        else:
-            print(" Let op hoofdletters!")
-            print("")
-            continue
+    elif Antwoord_2 == "B":
+        stukje_9 = True
+        stukje_2 = False
+        continue
+    else:
+        print(" Let op hoofdletters!")
+        print("")
+        continue
 
-#Keuze onderduiken #3
-    while stukje_3 == True:
-        print(" Het is te gevaarlijk voor Ruwanda en haar vader om onder te duiken. ")
-        print(" Ze weet niet wat ze moet doen en praat met haar vader en vrienden erover wat ze het beste kunnen doen.")
-        print(" Jullie twijfelen om morgen meteen weg te vluchten. Maar denken er ook aan om de volgende week weg te vluchten.")
-        print(" (Wat moeten ze volgens jou doen!)")
-        print("  A = Je vlucht de dag erna alsnog weg. ")
-        print("  B = Je blijft een week ondergedoken. ")
-        Antwoord_3 = input(">>>")
-        if Antwoord_3 == "A":
-            stukje_7 = True
-            stukje_3 = False
-            continue 
-        elif Antwoord_3 == "B":
-            einde_1 = True
-            stukje_3 = False
-            continue
-        else:
-            print(" Let op hoofdletters!")
-            print("")
-            continue
+#Keuze klaar
+while stukje_3 == True:
+    print(" Het is te gevaarlijk voor Ruwanda en haar vader om onder te duiken. ")
+    print(" Ze weet niet wat ze moet doen en praat met haar vader en vrienden erover wat ze het beste kunnen doen.")
+    print(" Jullie twijfelen om morgen meteen weg te vluchten. Maar denken er ook aan om de volgende week weg te vluchten.")
+    print(" (Wat moeten ze volgens jou doen!)")
+    print("  A = Je vlucht de dag erna alsnog weg. ")
+    print("  B = Je blijft een week ondergedoken. ")
+    Antwoord_3 = input(">>>")
+    if Antwoord_3 == "A":
+        stukje_7 = True
+        stukje_3 = False
+        continue 
+    elif Antwoord_3 == "B":
+        einde_1 = True
+        stukje_3 = False
+        continue
+    else:
+        print(" Let op hoofdletters!")
+        print("")
+        continue
 
-#stukje_4 #stopt hier
-    while stukje_4 == True:
-        print(" Jullie kozen om te blijven maar de taliban heeft jullie al snel te pakken. Ruwanda's vader word meegenomen naar een andere cel dan waar zij zit. ")
-        print(" Ruwanda komt er na een tijdje achter dat haar vader is vermoord. Ruwanda blijft gevangen zolang de Taliban de baas is over afghanistan")
-        Antwoord_4 = input(">>>")
-        if Antwoord_4 == "":
-            einde_1 = True
-            continue
-        else:
-            print(" Let op hoofdletters!")
-            print("")
-            continue
+#stukje_4 klaar
+while stukje_4 == True:
+    print(" Jullie kozen om te blijven maar de taliban heeft jullie al snel te pakken. Ruwanda's vader word meegenomen naar een andere cel dan waar zij zit. ")
+    print(" Ruwanda komt er na een tijdje achter dat haar vader is vermoord. Ruwanda blijft gevangen zolang de Taliban de baas is over afghanistan")
+    Antwoord_4 = input(">>>")
+    if Antwoord_4 == "":
+        einde_1 = True
+        stukje_4 = False
+        continue
+    else:
+        print(" Let op hoofdletters!")
+        print("")
+        continue
         
 
-#stukje_5 #vervolg op stuk 2
-    while stukje_5 == True:
-        print(" Jullie vluchten toch weg. Iemand uit de groep heeft contact gehad met een mensen smokkelaar.")
-        print(" Hij kan jullie richting Spanje meenemen alleen dat is een van de gevaarlijkste en langste route's die er is. ")
-        print(" Jullie hebben te horen gekregen dat het ook via Griekenland kan. Dat is veiliger en korter.  ")
-        print(" Welke optie moeten ze pakken?")
-        print("  A = Via Spanje ")
-        print("  B = Via Griekenland")
-        Antwoord_2 = input(">>>")
-        if Antwoord_2 == "A":
-            stukje_7 = True
-            stukje_2 = False
+#stukje_5 klaar
+while stukje_5 == True:
+    print(" Jullie vluchten toch weg. Iemand uit de groep heeft contact gehad met een mensen smokkelaar.")
+    print(" Hij kan jullie richting Spanje meenemen alleen dat is een van de gevaarlijkste en langste route's die er is. ")
+    print(" Jullie hebben te horen gekregen dat het ook via Griekenland kan. Dat is veiliger en korter.  ")
+    print(" Welke optie moeten ze pakken?")
+    print("  A = Via Spanje ")
+    print("  B = Via Griekenland")
+    Antwoord_2 = input(">>>")
+    if Antwoord_2 == "A":
+        stukje_7 = True
+        stukje_2 = False
         
-        elif Antwoord_2 == "B":
-            stukje_9 = True
-            stukje_2 = False
+    elif Antwoord_2 == "B":
+        stukje_9 = True
+        stukje_2 = False
         
-        else:
-            
-            print(" Let op hoofdletters!")
-            print("")
-            continue
+    else:    
+        print(" Let op hoofdletters!")
+        print("")
+        continue
 
-#stukje_6 vervolg op stuk 3 A
-    while stukje_6 == True:
-        print(" Jullie vluchten toch weg. Iemand uit de groep heeft contact gehad met een mensen smokkelaar.")
-        print(" Hij kan jullie richting Spanje meenemen alleen dat is een van de gevaarlijkste en langste route's die er is. ")
-        print(" Jullie hebben te horen gekregen dat het ook via Griekenland kan. Dat is veiliger en korter.  ")
-        print(" Welke optie moeten ze pakken?")
-        print("  A = Via Spanje ")
-        print("  B = Via Griekenland")
-        Antwoord_6 = input(">>>")
-        if Antwoord_6 == "A":
-            stukje_7 = True
-            stukje_6 = False
-        elif Antwoord_6 == "B":
-            stukje_9 = True
-            stukje_6 = False
-        else:
-            print(" Let op hoofdletters!")
-            print("")
-            continue
+#stukje_6 klaar
+while stukje_6 == True:
+    print(" Jullie vluchten toch weg. Iemand uit de groep heeft contact gehad met een mensen smokkelaar.")
+    print(" Hij kan jullie richting Spanje meenemen alleen dat is een van de gevaarlijkste en langste route's die er is. ")
+    print(" Jullie hebben te horen gekregen dat het ook via Griekenland kan. Dat is veiliger en korter.  ")
+    print(" Welke optie moeten ze pakken?")
+    print("  A = Via Spanje ")
+    print("  B = Via Griekenland")
+    Antwoord_6 = input(">>>")
+    if Antwoord_6 == "A":
+        stukje_7 = True
+        stukje_6 = False
+    elif Antwoord_6 == "B":
+        stukje_9 = True
+        stukje_6 = False
+    else:
+        print(" Let op hoofdletters!")
+        print("")
+        continue
 
-
-# Stukje_7 stopt hier
+# Stukje_7 klaar
 while stukje_7 == True:
         print(" Deze route naar Spanje is veel te gevaarlijk en te lang. Het eten wat jullie hadden meegenomen is op en zijn er nog lang niet")
         print(" Na 2 dagen kan niemand meer en iedereen overlijd door vermoeidheid. ")
@@ -200,7 +198,7 @@ while stukje_7 == True:
             print("")
             continue
 
-# Stukje_8/9
+# Stukje_8/9 klaar
 while stukje_9 == True:
         print(" Jullie gaan richting Griekenland. Een korte route over zee en minder gevaarlijk.")
         print(" Bij aankomst in griekenland moeten jullie snel wegwezen. Griekenland Wilt geen vluchteling in hun land en probeert iedere vluchteling op te pakken.")
@@ -225,9 +223,10 @@ while stukje_9 == True:
         
         else:
             print(" Let op hoofdletters!")
+            print(" ")
         continue
 
-#stukje_10
+#stukje_10 nog niet klaar
 while stukje_10 == True:
         print("")
         print("")
@@ -249,7 +248,8 @@ while stukje_10 == True:
         else:
             print("")
             continue
-# stukje_11 Belgie
+
+# stukje_11 klaar
 while stukje_11 == True:
         print(" Jullie wisten nog niet naar waar jullie gebracht werden. Jullie werden met ze alle in een vrachtwagen gegooid.")
         print(" Het was erg donker in de vrachtwagen de kleppen waren dicht en er kwam geen zonlicht naar binnen.")
@@ -258,7 +258,7 @@ while stukje_11 == True:
         einde_1 = True
         stukje_11 = False
 
-#stukje_12 nederland
+#stukje_12 klaar
 while stukje_12 == True:
         print(" Jullie wisten nog niet naar waar jullie gebracht werden. Jullie werden met ze alle in een vrachtwagen gegooid.")
         print(" Het was erg donker in de vrachtwagen de kleppen waren dicht en er kwam geen zonlicht naar binnen.")
@@ -278,8 +278,8 @@ while stukje_12 == True:
             print(" Let op hoofdletters!")
             print("")
             continue
-#stukje_13 duitseland
-    
+
+#stukje_13 klaar
 while stukje_13 == True:
         print(" Jullie wisten nog niet naar waar jullie gebracht werden. Jullie werden met ze alle in een vrachtwagen gegooid.")
         print(" Het was erg donker in de vrachtwagen de kleppen waren dicht en er kwam geen zonlicht naar binnen.")
@@ -301,7 +301,7 @@ while stukje_13 == True:
             print("")
             continue
 
-#Stukje_14
+#Stukje_14 klaar
 while stukje_14 == True:
         print(" Goeie keuze!")
         print(" Nederland is een goed land voor vluchtelingen. Jullie zijn naar vluchtelingenwerk Nederland gestuurd.")
@@ -318,11 +318,11 @@ while stukje_14 == True:
             stukje_18 = True
             stukje_14 = False
         else:
-            print("")
+            print(" Let op hoofdletters!")
             print("")
             continue
 
-#stukje_15
+#stukje_15 nog niet klaar
 while stukje_15 == True:
         print(" ")
         print(" ")
@@ -338,7 +338,7 @@ while stukje_15 == True:
             print("")
             continue
 
-#stukje_16
+#stukje_16 klaar
 while stukje_16 == True:
         print(" Jullie kozen ervoor om toch nn Duitseland te blijven.")
         print(" Jullie wisten niet waar te beginnen en gingen naar het dichtsbijzijnde politie bureau")
@@ -356,11 +356,11 @@ while stukje_16 == True:
             stukje_18 = True
             stukje_16 = False
         else:
-            print("")
+            print(" Let op hoofdletters!")
             print("")
             continue
 
-#stukje_17 berlijn station
+#stukje_17 klaar
 while stukje_17 == True:
         print(" Jullie zijn naar Berlijn station gegaan. Jullie vragen naar de trein richting Nederland. ")
         print(" Jullie kopen een kaartje voor de trein richting Nederland alleen is dat trein kaartje erg duur. Jullie hebben gelukkig nog geld over dus dat redden jullie")
@@ -383,53 +383,53 @@ while stukje_17 == True:
             continue
 
 
-#stukje_18
+#stukje_18 klaar
 while stukje_18 == True:
-        print(" Een hele goede keuze om het uit handen te geven! ")
-        print(" Jullie hebben gevraagd aan Vluchtelingenwerk Nederland om te helpen met jullie moeder naar Nederland halen.")
-        print(" Zijn meteen aan de slag gegaan.")
-        print(" De volgende dag werden jullie naar een kantoor gestuurd van de Nederlandse ambassade.")
-        print(" Ze vroegen om de naam en woonplaats etc.")
-        print(" Ruwanda's vader had nogsteeds een onderbuik gevoel maar gaf het toch. ")
-        print(" Hij moest week wachten. Om te horen hoe of wat.")
-        print(" (wat voor nieuws krijgen jullie te horen?")
-        print("  A = Goed nieuws!")
-        print("  B = Slecht nieuws :(")
-        Antwoord_18 = input(">>>")
-        if Antwoord_18 == "A":
-            stukje_19 = True
-            stukje_18 = False
-        elif Antwoord_18 == "B":
-            stukje_20 = True
-            stukje_18 = False
-        else:
-            print(" Let op hoofdletters!")
-            print("")
-            continue
+    print(" Een hele goede keuze om het uit handen te geven! ")
+    print(" Jullie hebben gevraagd aan Vluchtelingenwerk Nederland om te helpen met jullie moeder naar Nederland halen.")
+    print(" Zijn meteen aan de slag gegaan.")
+    print(" De volgende dag werden jullie naar een kantoor gestuurd van de Nederlandse ambassade.")
+    print(" Ze vroegen om de naam en woonplaats etc.")
+    print(" Ruwanda's vader had nogsteeds een onderbuik gevoel maar gaf het toch. ")
+    print(" Hij moest week wachten. Om te horen hoe of wat.")
+    print(" (wat voor nieuws krijgen jullie te horen?")
+    print("  A = Goed nieuws!")
+    print("  B = Slecht nieuws :(")
+    Antwoord_18 = input(">>>")
+    if Antwoord_18 == "A":
+        stukje_19 = True
+        stukje_18 = False
+    elif Antwoord_18 == "B":
+        stukje_20 = True
+        stukje_18 = False
+    else:
+        print(" Let op hoofdletters!")
+        print("")
+        continue
 
-# stukje_19
+# stukje_19 klaar
 while stukje_19 == True:
-        print(" Goed nieuws!")
-        print(" Ruwanda's moeder leeft nog en kan worden gecontacteerd. Ze word verzocht iemand met een evacuatie vlucht mee te gaan. ")
-        print(" Dat vliegtuig vertrekt over 4 dagen. Maar het vliegveld is ver van der huis en ze heeft geen vervoer. ")
-        print(" Ze gaat het proberen te halen maar lopend is het 5 dagen lopen. ")
-        print(" Na 1 week horen jullie het nieuws")
-        print("  A = Ze heeft het gered ")
-        print("  B = ze heeft het niet gered")
-        Antwoord_19 = input(">>>")
-        if Antwoord_19 == "A":
-            stukje_22 = True
-            stukje_19 = False
-        elif Antwoord_19 == "B":
-            stukje_23 = True
-            stukje_19 = False
-        else:
-            print(" Let op hoofdletters!")
-            print("")
-            continue
+    print(" Goed nieuws!")
+    print(" Ruwanda's moeder leeft nog en kan worden gecontacteerd. Ze word verzocht iemand met een evacuatie vlucht mee te gaan. ")
+    print(" Dat vliegtuig vertrekt over 4 dagen. Maar het vliegveld is ver van der huis en ze heeft geen vervoer. ")
+    print(" Ze gaat het proberen te halen maar lopend is het 5 dagen lopen. ")
+    print(" Na 1 week horen jullie het nieuws")
+    print("  A = Ze heeft het gered ")
+    print("  B = ze heeft het niet gered")
+    Antwoord_19 = input(">>>")
+    if Antwoord_19 == "A":
+        stukje_22 = True
+        stukje_19 = False
+    elif Antwoord_19 == "B":
+        stukje_23 = True
+        stukje_19 = False
+    else:
+        print(" Let op hoofdletters!")
+        print("")
+        continue
 
 
-# stukje_20
+# stukje_20 klaar
 while stukje_20 == True:
         print(" De moeder van Ruwanda heeft de vlucht niet gered. ")
         print(" Het nieuws word laat op de avond verteld.")
@@ -445,31 +445,31 @@ while stukje_20 == True:
             print("")
             continue
 
-#stukje 21
+#stukje 21 nog niet klaar
 while stukje_21 == True:
+    print("")
+    print("")
+    print("")
+    Antwoord_21 = input(">>>")
+    if Antwoord_21 == "A":
+        stukje_22 = True
+        stukje_21 = False
+    elif Antwoord_21 == "B":
+        stukje_23 = True
+        stukje_21 = False
+    else:
+        print(" Let op hoofdletters!")
         print("")
-        print("")
-        print("")
-        Antwoord_21 = input(">>>")
-        if Antwoord_21 == "A":
-            stukje_22 = True
-            stukje_21 = False
-        elif Antwoord_21 == "B":
-            stukje_23 = True
-            stukje_21 = False
-        else:
-            print(" Let op hoofdletters!")
-            print("")
-            continue
+        continue
 
-#stukje 22
+#stukje 22 klaar
 while stukje_22 == True:
         print(" De moeder van ruwanda heeft de vlucht gered! Ze heeft een lift kunnen regelen richting het vliegveld door een van haar vrienden.")
         print(" Ruwanda en haar vader worden naar het vliegveld gebracht en wachten op der. ")
         einde_3 = True
         stukje_22 = False
 
-#stukje 23
+#stukje 23 nog niet klaar
 while stukje_23 == True:
         print("")
         print("")
@@ -478,7 +478,7 @@ while stukje_23 == True:
         stukje_23 = False
 
 
-#einde1
+#einde1 klaar
 while einde_1 == True:
         print("Je bent gepakt door de Taliban")
         print("")
@@ -500,7 +500,7 @@ while einde_1 == True:
             print("Let op hoofdletters")
             print("")
             continue
-#einde2
+#einde2 klaar
 while einde_2 == True:
         print(" Deze route naar Spanje is veel te gevaarlijk en te lang. Het eten wat jullie hadden meegenomen is op en zijn er nog lang niet")
         print(" Na 2 dagen kan niemand meer en iedereen overlijd door vermoeidheid. ")
@@ -523,7 +523,7 @@ while einde_2 == True:
             print("Let op hoofdletters")
             print("")
             continue
-#einde3
+#einde3 klaar
 while einde_3 == True:
         print(" De moeder van Ruwanda komt aanlopen op het vliegveld.")
         print(" Jullie omhelzen elkaar en gaan richting het azc om haar te melden. Iedereen daar is blij.")
@@ -547,7 +547,7 @@ while einde_3 == True:
             print(" Let op hoofdletters")
             print("")
             continue
-#einde4
+#einde4 klaar
 while einde_4 == True:
         print(" Jullie pakken het leven weer op en er word verteld dat er een huis voor jullie beschikbaar is gesteld.")
         print(" jullie verhuizen er naar toe en de vader van Ruwanda heeft een goed betaalde baan in de ICT gekregen.")
