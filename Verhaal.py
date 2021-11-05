@@ -277,7 +277,7 @@ while stukje_13 == True:
             stukje_16 = True
             stukje_13 = False
         elif Antwoord_13 == "B":
-            stukje_19 = True
+            stukje_14 = True
             stukje_13 = False
         else:
             print(" Let op hoofdletters!")
@@ -305,7 +305,7 @@ while stukje_14 == True:
             print("")
             continue
 
-#stukje_15 nog niet klaar
+#stukje_15 klaar
 while stukje_15 == True:
         print(" Jullie reizen door naar België. Het leven is daar goed en starten daar een leven. ")
         print(" Ruwanda heeft weer een eigen beauty salon en der vader heeft een baan bij een ICT bedrijf gekregen.")
@@ -401,7 +401,7 @@ while stukje_19 == True:
         stukje_22 = True
         stukje_19 = False
     elif Antwoord_19 == "B":
-        stukje_23 = True
+        stukje_21 = True
         stukje_19 = False
     else:
         print(" Let op hoofdletters!")
@@ -416,10 +416,10 @@ while stukje_20 == True:
         print(" Ze barstte beide in tranen uit en worden naar jullie kamer gebracht om gekalmeerd te worden")
         print(" Iedereen heeft ze best gedaan en jullie bedanken iedereen toch voor het helpen")
         print(" ")
-        Antwoord_21 = input(">>>")
-        if Antwoord_21 == "A":
+        Antwoord_20 = input(">>>")
+        if Antwoord_20 == "A":
             einde_4 = True
-            stukje_21 = False
+            stukje_20 = False
         else:
             print(" Let op hoofdletters!")
             print("")
@@ -427,20 +427,16 @@ while stukje_20 == True:
 
 #stukje 21 nog niet klaar
 while stukje_21 == True:
-    print("")
-    print("")
-    print("")
-    Antwoord_21 = input(">>>")
-    if Antwoord_21 == "A":
-        stukje_22 = True
-        stukje_21 = False
-    elif Antwoord_21 == "B":
-        stukje_23 = True
-        stukje_21 = False
-    else:
-        print(" Let op hoofdletters!")
         print("")
-        continue
+        print("")
+        Antwoord_21 = input(">>>")
+        if Antwoord_21 == "":
+            einde_5 = True
+            stukje_21 = False
+        else:
+            print(" Let op hoofdletters!")
+            print("")
+            continue
 
 #stukje 22 klaar
 while stukje_22 == True:
