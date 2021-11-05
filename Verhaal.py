@@ -1,4 +1,3 @@
-#KEUZES
 import os
 os.system("cls")
 inleiding = False
@@ -24,10 +23,10 @@ stukje_20 = False
 stukje_21 = False 
 stukje_22 = False 
 stukje_23 = False 
-einde_1 = False #Gepakt
-einde_2 = False # Blijven wonen in duitseland
-einde_3 = False # Richting Spanje maar dat halen jullie niet
-einde_4 = False # Moeder naar nederland halen
+einde_1 = False 
+einde_2 = False 
+einde_3 = False 
+einde_4 = False 
 einde_5 = False
 spelletje = False 
 
@@ -65,17 +64,15 @@ while stukje_1 == True:
     if Antwoord_1 == "A":
         stukje_2 = True
         stukje_1 = False
-        continue
-        
+
     elif Antwoord_1 == "B":
         stukje_3 = True
         stukje_1 = False
-        continue
-            
+
     elif Antwoord_1 == "C":
         stukje_4 = True
         stukje_1 = False
-        continue
+        
     else:
         print("Let op hoofdletters")
         continue
@@ -92,12 +89,12 @@ while stukje_2 == True:
     if Antwoord_2 == "A":
         stukje_7 = True
         stukje_2 = False
-        continue
         
+
     elif Antwoord_2 == "B":
         stukje_9 = True
         stukje_2 = False
-        continue
+        
     else:
         print(" Let op hoofdletters!")
         print("")
@@ -115,11 +112,11 @@ while stukje_3 == True:
     if Antwoord_3 == "A":
         stukje_7 = True
         stukje_3 = False
-        continue 
+ 
     elif Antwoord_3 == "B":
         einde_1 = True
         stukje_3 = False
-        continue
+
     else:
         print(" Let op hoofdletters!")
         print("")
@@ -133,13 +130,13 @@ while stukje_4 == True:
     if Antwoord_4 == "":
         einde_1 = True
         stukje_4 = False
-        continue
+
     else:
         print(" Let op hoofdletters!")
         print("")
         continue
+    
         
-
 #stukje_5 klaar
 while stukje_5 == True:
     print(" Jullie vluchten toch weg. Iemand uit de groep heeft contact gehad met een mensen smokkelaar.")
@@ -556,15 +553,15 @@ while einde_5 == True:
     print("")
     print(" A = Ja!")
     print(" B = Nee")
-    Antwoord_E4 = input(">>>")
-    if Antwoord_E4 == "A":
+    Antwoord_E5 = input(">>>")
+    if Antwoord_E5 == "A":
         inleiding = True
-        einde_4 = False
-    elif Antwoord_E4 == "B":
+        einde_5 = False
+    elif Antwoord_E5 == "B":
         print("Bedankt voor het spelen van mijn spel!")
         print("Cya later!")
         spelletje = False
-        einde_4 = False
+        einde_5 = False
     else:
         print("Let op hoofdletters")
         print("")
