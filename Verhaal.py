@@ -148,14 +148,14 @@ while stukje_5 == True:
     print(" Welke optie moeten ze pakken?")
     print("  A = Via Spanje ")
     print("  B = Via Griekenland")
-    Antwoord_2 = input(">>>")
+    Antwoord_5 = input(">>>")
     if Antwoord_2 == "A":
         stukje_7 = True
-        stukje_2 = False
+        stukje_5 = False
         
     elif Antwoord_2 == "B":
         stukje_9 = True
-        stukje_2 = False
+        stukje_5 = False
         
     else:    
         print(" Let op hoofdletters!")
